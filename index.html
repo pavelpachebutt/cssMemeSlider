@@ -9,37 +9,37 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="slider">
-            <div class="images">
-                <input type="radio" name="slide" id="img1" checked>
-                <input type="radio" name="slide" id="img2">
-                <input type="radio" name="slide" id="img3">
-                <input type="radio" name="slide" id="img4">
-                <input type="radio" name="slide" id="img5">
-
-                <img src="./images/img-1.jpg" class="img img1" alt="img1">
-                <img src="./images/img-2.jpg" class="img img2" alt="img2">
-                <img src="./images/img-3.jpg" class="img img3" alt="img3">
-                <img src="./images/img-4.jpg" class="img img4" alt="img4">
-                <img src="./images/img-5.jpg" class="img img5" alt="img5">
-            </div>
-            <div class="controls-slogan">
-                <div class="slogan">
-                    <p>I'm best of the best</p>
-                    <p>this is just the beginning</p>
-                    <p>keep going i believe in you</p>
-                    <p>it's simple...ctrl C + ctrl V</p>
-                    <p>I'm tired</p>
-                </div>
-                <div class="dots">
-                    <label for="img1"></label>
-                    <label for="img2"></label>
-                    <label for="img3"></label>
-                    <label for="img4"></label>
-                    <label for="img5"></label>
-                </div>
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+                <div class="slide"><img src="./images/img-1.jpg" alt="img"></div>
+                <div class="slide"><img src="./images/img-2.jpg" alt=""></div>
+                <div class="slide"><img src="./images/img-4.jpg" alt=""></div>
+                <div class="slide"><img src="./images/img-5.jpg" alt=""></div>
             </div>
         </div>
-    </div>
+        <div class="controls-slogan">
+            <div class="slogan">
+                <p>I'm best of the best</p>
+                <p>this is just the beginning</p>
+                <p>keep going i believe in you</p>
+                <p>it's simple...ctrl C + ctrl V</p>
+                <p>I'm tired</p>
+            </div>
+            <div class="dots">
+                <!-- <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
+                <input type="radio" name="slider" id="slide4"> -->
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>
