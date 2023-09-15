@@ -78,6 +78,13 @@
     margin-left: -300%;
 }
 
+#slide1:checked ~ .controls-slogan>.dots label[for='slide1'],
+#slide2:checked ~ .controls-slogan>.dots label[for='slide2'],
+#slide3:checked ~ .controls-slogan>.dots label[for='slide3'],
+#slide4:checked ~ .controls-slogan>.dots label[for='slide4'] {
+    background-color: rgb(81, 76, 76);
+    border-color: white;
+}
 
 .controls-slogan {
     display: flex;
@@ -150,10 +157,8 @@
         flex-direction: column-reverse;
     }
 
-    /* .slogan__wrap {
-        display: flex;
-        justify-content: start;
-
-    } */
+    .slogan__wrap {
+        margin-right: 75%;
+    }
 }
 
